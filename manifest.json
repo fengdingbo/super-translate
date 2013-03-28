@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "content_scripts": [{
+    "js": ["up.js"],
+    "matches": ["http://*/*", "https://*/*"]
+  }],
+  "options_page": "options_page.html",
+  "permissions": [ "http://*/*", "https://*/*" ],
+  "description": "This's chrome",
+  "name": "my_chrome",
+  "version": "1.28"
+}
